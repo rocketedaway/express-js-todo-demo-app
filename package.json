@@ -1,0 +1,12 @@
+{
+  "name": "ralfus-todo-app",
+  "version": "1.0.0",
+  "description": "A demo TODO app built to showcase the Ralfus agent",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
