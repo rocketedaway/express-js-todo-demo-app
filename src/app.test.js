@@ -7,8 +7,8 @@ describe('GET /', () => {
     expect(res.status).toBe(200);
   });
 
-  it('responds with "Hello World"', async () => {
+  it('responds with "Hello Randy"', async () => {
     const res = await request(app).get('/');
-    expect(res.text).toBe('Hello World');
+    expect(res.text).toBe('Hello Randy');
   });
 });

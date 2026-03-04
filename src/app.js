@@ -2,9 +2,9 @@ const express = require('express');
 
 const app = express();
 
-// GET / - Returns a simple "Hello World" greeting
+// GET / - Returns a simple "Hello Randy" greeting
 app.get('/', (req, res) => {
-  res.send('Hello World');
+  res.send('Hello Randy');
 });
 
 module.exports = app;
